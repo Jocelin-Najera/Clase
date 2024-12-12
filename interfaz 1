@@ -1,0 +1,11 @@
+class MedioAmbiente
+      Temperatura= 0.0
+      SensacionTermica= 0.0
+    #Metodos: 1 por cada caso de uso
+    #def nombreCasoUso( self,parametros (precondiciones separadas con ',')):
+    def calculaSensacionTermica(self, temperatura,velocidadviento):
+        self.__temperatura= temperatura
+        self.__velocidadViento= velocidadviento
+        self.__sensacionTermica= self.__temperatura-(velocidadviento-10)/2
+        return self.__sensaciontermica
+        
